@@ -1,0 +1,12 @@
+<Datasets xmlns="http://www.deegree.org/ogcapi/datasets"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.deegree.org/ogcapi/datasets  http://schemas.deegree.org/ogcapi/datasets/3.4.0/datasets.xsd"
+          configVersion="3.4.0">
+  <Title>Example Service</Title>
+  <Description>OGC API Features Example Service</Description> <!--(1)-->
+  <Contact>
+    <Name>wetransform GmbH</Name>
+    <Url>https://www.wetransform.to</Url>
+    <EMail>info@wetransform.to</EMail>
+  </Contact>
+</Datasets>
