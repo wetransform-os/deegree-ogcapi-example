@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://inspire.ec.europa.eu/schemas/ad/4.0">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <element name="SimpleAddress" substitutionGroup="gml:AbstractFeature" type="ad:SimpleAddress"/>
+  <complexType name="SimpleAddress">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="alternativeIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="beginLifespanVersion" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="endLifespanVersion" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="building" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_ThoroughfareName" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_PostalDescriptor" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AddressAreaName" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_1" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_2" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_3" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_4" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_5" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="component_AdminUnitName_6" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_addressNumber" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_addressNumberExtension" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_addressNumber2ndExtension" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_buildingIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_buildingIdentifierPrefix" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_cornerAddress1stIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_cornerAddress2ndIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_entranceDoorIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_floorIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_kilometrePoint" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_postalDeliveryIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_staircaseIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_designator_unitIdentifier" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_name" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_level" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="locator_level_href" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="parcel" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="parentAddress" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="status" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="status_href" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="validFrom" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="validTo" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="inspireId_localId" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="inspireId_namespace" nillable="false" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position" nillable="true" type="gml:PointPropertyType"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position_specification" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position_specification_href" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position_method" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position_method_href" nillable="true" type="string"/>
+          <element form="unqualified" maxOccurs="1" minOccurs="1" name="position_default" nillable="true" type="string"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+</schema>
