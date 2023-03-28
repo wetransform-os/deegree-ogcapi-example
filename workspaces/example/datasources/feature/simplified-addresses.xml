@@ -2,7 +2,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.deegree.org/datasource/feature/memory
   http://schemas.deegree.org/datasource/feature/memory/3.4.0/memory.xsd">
-  <StorageCRS>EPSG:4326</StorageCRS>
+  <StorageCRS>http://www.opengis.net/def/crs/EPSG/0/4258</StorageCRS>
   <GMLSchema version="GML_32">../../appschemas/SimpleAddresses.xsd/</GMLSchema>
   <GMLFeatureCollection version="GML_32">../../data/simplifiedAddresses_nonulls.gml</GMLFeatureCollection>
 </MemoryFeatureStore>
