@@ -1,0 +1,18 @@
+<HtmlView configVersion="3.4.0"
+          xmlns="http://www.deegree.org/ogcapi/htmlview"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.deegree.org/ogcapi/htmlview http://schemas.deegree.org/ogcapi/3.4.0/htmlview.xsd">
+
+  <CssFile>../html/landingpage.css</CssFile>
+  <!--
+  <LegalNoticeUrl>https://lat-lon.de/en/Imprint.html</LegalNoticeUrl>
+  <PrivacyPolicyUrl>https://lat-lon.de/en/Privacy.html</PrivacyPolicyUrl>
+  -->
+  <Map>
+    <WMSUrl version="1.3.0">https://service.pdok.nl/brt/top10nl/wms/v1_0?request=GetCapabilities&amp;service=wms</WMSUrl>
+    <WMSLayers>top10nl,functioneelgebied,functioneelgebiedlabel,gebouw,geografischgebied,geografischgebiedlabelnl,geografischgebiedlabelfr,hoogte,inrichtingselement,plaats,plaatslabel,plaatslabelfr,plaatslabelnl,plantopografie,registratiefgebied,relief,spoorbaandeel,terrein,waterdeel,wegdeel,wegdeelhartlijn,wegdeelhartlijnlabel,wegdeelhartpunt</WMSLayers>
+    <CrsProj4Definition code="EPSG:25832">+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
+    </CrsProj4Definition>
+  </Map>
+
+</HtmlView>
