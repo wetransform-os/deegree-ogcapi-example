@@ -17,3 +17,5 @@ services:
       - "8080:8080"
     volumes:
     - ./workspaces:/workspaces
+    environment:
+    - CATALINA_OPTS=-Ddeegree.oaf.openapi.cors.allow_all=true -Ddeegree.oaf.openapi.version_path_segment=true -Ddeegree.oaf.openapi.version_response_header=true
