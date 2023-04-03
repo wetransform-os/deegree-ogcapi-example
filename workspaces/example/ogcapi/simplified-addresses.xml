@@ -13,9 +13,12 @@
 
   <ConfigureCollection id="SimpleAddress">
     <AddLink href="https://inspire.ec.europa.eu/featureconcept/Address" rel="tag" type="text/html" title="Feature concept Address"/>
+  </ConfigureCollection>
+
+  <ConfigureCollections>
     <AddLink href="https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/a5f961e9-ebdd-41e2-b8e8-ab33ed340a83" rel="describedby" type="text/html" title="Metadata"/>
     <AddLink href="http://creativecommons.org/publicdomain/zero/1.0/deed.nl" rel="license" type="text/html" title="License"/>
     <AddLink href="https://github.com/INSPIRE-MIF/2017.2/tree/master/GeoJSON/ads" rel="describedby" type="text/html" title="Encoding description"/>
-  </ConfigureCollection>
+  </ConfigureCollections>
 
 </deegreeOAF>
